@@ -1,0 +1,24 @@
+CUESTIONARIO
+
+Defina mediante u ejemplo de forma clara:
+
+1.El manejo de las imagenes en React con ASSETS consiste en:
+Consiste en importar a nuestro documento JSX la imagen(es) que  se vayan a invocar y darle otro nombre para poder llamarla.
+
+Ejs:
+import userImg1 from '../assets/discord.png';
+ 
+
+
+2.La sintaxis de la exportacion nominal es:
+
+Es una forma en como se exporta el documento JSX al componente principal (App.jsx)
+
+Ejs:
+export function Aplicaciones() {
+
+}
+
+
+
+
