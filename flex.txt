@@ -1,0 +1,60 @@
+ Propiedades clave de Flexbox (y su equivalente en Tailwind)
+1️⃣ Dirección (flex-direction)
+Controla el eje principal de los elementos hijos.
+
+flex-row (flex-direction: row): en fila, de izquierda a derecha.
+
+flex-col (flex-direction: column): en columna, de arriba hacia abajo.
+
+2️⃣ Distribución horizontal (justify-content)
+Controla cómo se distribuyen los elementos a lo largo del eje principal:
+
+justify-start: al inicio.
+
+justify-center: al centro.
+
+justify-end: al final.
+
+justify-between: espacio igual entre ellos.
+
+justify-around: espacio igual alrededor de cada uno.
+
+justify-evenly: espacios iguales entre y fuera de los elementos.
+
+3️⃣ Alineación vertical (align-items)
+Controla el alineamiento en el eje cruzado (secundario):
+
+items-start: alineados arriba.
+
+items-center: centrados.
+
+items-end: alineados abajo.
+
+items-stretch: estirados para llenar el contenedor.
+
+4️⃣ Alineación de líneas (align-content)
+Solo aplica cuando hay múltiples líneas (al usar flex-wrap).
+
+content-start, content-center, content-end, content-between, content-around, content-evenly.
+
+5️⃣ Flex-wrap
+Por defecto, los elementos no se envuelven y se mantienen en una sola línea.
+
+flex-wrap: permite que los elementos se envuelvan en varias líneas.
+
+flex-nowrap: evita que se envuelvan (comportamiento predeterminado).
+
+flex-wrap-reverse: envoltura en orden inverso.
+
+6️⃣ Propiedades en elementos hijos
+Controlan el tamaño y comportamiento de cada hijo:
+
+flex-1: el hijo ocupa el espacio restante disponible.
+
+flex-auto: crece automáticamente para ocupar espacio según contenido.
+
+flex-initial: tamaño basado en el contenido sin crecer.
+
+flex-none: tamaño fijo, no se expande ni se contrae.
+
+self-center, self-start, self-end: alineación individual.

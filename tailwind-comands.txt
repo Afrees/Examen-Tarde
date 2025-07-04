@@ -1,0 +1,199 @@
+container            // Centra y limita el ancho del contenido
+flex                 // Activa Flexbox
+inline-flex          // Flexbox en línea
+grid                 // Activa Grid
+flex-row             // Dirección de fila en Flexbox
+flex-col             // Dirección de columna en Flexbox
+items-center         // Centra hijos verticalmente en Flex/Grid
+justify-center       // Centra hijos horizontalmente en Flex/Grid
+hidden               // Oculta el elemento
+block                // Display block
+overflow-hidden      // Oculta desbordamiento
+
+m-4                  // Margen de 1rem en todos los lados
+mx-auto              // Margen automático horizontal (centrar)
+p-4                  // Padding de 1rem en todos los lados
+px-2                 // Padding horizontal de 0.5rem
+space-x-4            // Espacio horizontal de 1rem entre hijos en Flex
+space-y-2            // Espacio vertical de 0.5rem entre hijos en Flex
+
+w-full               // Ancho completo del contenedor padre
+w-1/2                // Ancho del 50% del contenedor padre
+h-full               // Alto completo del contenedor padre
+max-w-md             // Ancho máximo mediano (28rem)
+
+text-sm              // Tamaño de texto pequeño
+text-lg              // Tamaño de texto grande
+text-2xl             // Tamaño de texto extra grande
+font-bold            // Texto en negrita
+font-light           // Texto en delgado
+text-center          // Texto centrado
+uppercase            // Convierte texto a mayúsculas
+truncate             // Recorta texto largo con "..."
+
+bg-blue-500          // Fondo azul medio
+bg-gray-800          // Fondo gris oscuro
+text-white           // Texto blanco
+text-black           // Texto negro
+text-gray-700        // Texto gris oscuro
+border               // Borde de 1px sólido
+border-2             // Borde de 2px sólido
+border-gray-300      // Borde gris claro
+hover:bg-blue-6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Layout
+Controlan estructura y organización de la interfaz.
+
+container: centra y limita el ancho del contenido.
+
+box-border, box-content: define el modelo de caja.
+
+block, inline-block, inline: controlan el display.
+
+flex, inline-flex: activan Flexbox.
+
+grid: activa Grid.
+
+flex-row, flex-col: dirección en Flex.
+
+items-center, justify-center: alineación en Flex/Grid.
+
+float-left, float-right: flotado.
+
+clear-both: limpiar flotado.
+
+object-cover, object-contain: manejo de imágenes.
+
+overflow-hidden, overflow-scroll: control de desbordamiento.
+
+visible, invisible: visibilidad.
+
+z-10, z-50: control de capas (z-index).
+-----------------------------------------------------------------------
+Espaciado
+Controla márgenes y paddings.
+
+m-4, mt-2, mx-auto: margen.
+
+p-4, pt-2, px-6: padding.
+
+space-x-4, space-y-2: espaciado entre elementos hijos en Flex.
+-----------------------------------------------------------------------
+Tamaño
+Controla el ancho y alto.
+
+w-8, w-full, w-screen: ancho.
+
+h-8, h-full, h-screen: alto.
+
+min-w-0, max-w-xs: tamaño mínimo y máximo.
+
+
+-----------------------------------------------------------------------
+Tipografía
+Controla fuente y texto.
+
+text-sm, text-lg, text-2xl: tamaño de texto.
+
+font-light, font-bold: grosor de fuente.
+
+text-center, text-right: alineación.
+
+uppercase, lowercase, capitalize: transformación.
+
+tracking-wide, tracking-tight: espaciado entre letras.
+
+leading-tight, leading-relaxed: interlineado.
+
+truncate, line-clamp-3: recorte de texto.
+
+
+-----------------------------------------------------------------------
+Color
+Controla colores de fondo, texto y bordes.
+
+bg-blue-500, bg-red-200: fondo.
+
+text-green-600, text-gray-900: texto.
+
+border-yellow-400, border-t-indigo-500: bordes.
+
+placeholder-gray-400: placeholder en inputs.
+
+divide-y-2, divide-x-4: divisores con color entre elementos.
+-----------------------------------------------------------------------
+Bordes y Radio
+Controla bordes y esquinas.
+
+border, border-2: grosor del borde.
+
+rounded, rounded-lg, rounded-full: bordes redondeados.
+
+border-solid, border-dashed: estilo de borde.
+
+-----------------------------------------------------------------------
+Interactividad
+Estados de interacción.
+
+hover:bg-blue-500: aplicar fondo azul al pasar el mouse.
+
+focus:border-blue-500: aplicar borde azul al enfocar.
+
+active:scale-95: reducir tamaño al presionar.
+
+disabled:opacity-50: opacidad en estado deshabilitado.
+-----------------------------------------------------------------------
+Otros utilitarios relevantes
+cursor-pointer, cursor-not-allowed: cursor.
+
+select-none, select-text: control de selección de texto.
+
+hidden, block: visibilidad.
+
+sr-only: accesibilidad (oculto visualmente pero accesible por lectores de pantalla).
+
+
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+
+
